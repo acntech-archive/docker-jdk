@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  acntech_jdk:
+    build: .
+    image: acntech/jdk:1.8.0_101-alpine
+    container_name: acntech-jdk-alpine
+    hostname: jdk.acntech.internal
