@@ -1,2 +1,2 @@
-# docker-jdk8
-Docker image with JDK 1.8, based on the ubuntu:16.04 image
+# docker-jdk
+Docker image with Oracle JDK, based on the ubuntu:16.04 image

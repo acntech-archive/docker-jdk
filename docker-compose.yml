@@ -1,8 +1,8 @@
 version: "2"
 
 services:
-  acntech_jdk8:
+  acntech_jdk:
     build: .
     image: acntech/jdk:1.8.0_101
-    container_name: acntech-jdk8
-    hostname: jdk8.acntech.internal
+    container_name: acntech-jdk
+    hostname: jdk.acntech.internal

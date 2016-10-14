@@ -21,4 +21,3 @@ nbactions.xml
 # SonarLint
 *.sonarlint/
 .sonar_lock
-/code/soa-rules/soa-rules-esb-pro-2/nbproject/
