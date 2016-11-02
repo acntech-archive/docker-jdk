@@ -4,5 +4,5 @@ services:
   acntech_jdk:
     build: .
     image: acntech/jdk:1.8.0_101-alpine
-    container_name: acntech-jdk-alpine
+    container_name: acntech-jdk
     hostname: jdk.acntech.internal
