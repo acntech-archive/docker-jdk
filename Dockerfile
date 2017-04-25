@@ -2,8 +2,8 @@ FROM ubuntu
 MAINTAINER Thomas Johansen "thomas.johansen@accenture.com"
 
 
-ARG JDK_URL=http://download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-linux-x64.tar.gz
-ARG JDK_DIR=jdk1.8.0_101
+ARG JDK_URL=http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.tar.gz
+ARG JDK_DIR=jdk1.8.0_131
 
 
 ENV JAVA_HOME /opt/java/default
