@@ -12,7 +12,7 @@ ENV PATH $PATH:${JAVA_HOME}/bin
 
 RUN apk update && \
     apk upgrade && \
-    apk add wget
+    apk add bash wget gnupg
 
 RUN wget --no-cookies \
          --no-check-certificate \
