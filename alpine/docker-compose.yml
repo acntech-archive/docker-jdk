@@ -3,6 +3,4 @@ version: "2"
 services:
   acntech_jdk:
     build: .
-    image: acntech/jdk:latest-alpine
-    container_name: acntech-jdk
-    hostname: jdk.acntech.internal
+    image: acntechie/jdk:latest-alpine
